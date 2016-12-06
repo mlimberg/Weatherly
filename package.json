@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack.js",
+    "build": "webpack",
     "test": "mocha --compilers js:babel/register"
   },
   "repository": {
@@ -40,7 +40,8 @@
     "node-sass": "^3.4.2",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
-    "sass-loader": "^3.2.0",
+    "sass-loader": "^3.2.3",
+    "scss-loader": "0.0.1",
     "style-loader": "^0.13.1",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"

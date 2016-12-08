@@ -18,12 +18,21 @@
   padding-left: 10px;
 }
 
-.searchSection {
+.searchSection, .welcome {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+
+.weatherList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .submitButton {
+  font-size: 16px;
+  font-weight: 500;
   height: 35px;
   width: 35px;
   background: green;

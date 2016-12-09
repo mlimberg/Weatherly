@@ -1,0 +1,24 @@
+.invalidCity {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.weatherList {
+  border: 1px solid black;
+  margin: 40px 20px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.dataTable {
+  border: 1px solid red;
+}
+
+.locationHeader {
+  font-size: 24px;
+  margin: 25px;
+}

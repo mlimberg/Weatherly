@@ -1,0 +1,39 @@
+.header {
+  background: #DCF0D6;
+}
+
+.searchSection, .welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.welcomeMessage {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 44px;
+  font-family: $header-font;
+}
+
+.userInput {
+  text-indent: 5px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 16px;
+  width: 300px;
+  height: 30px;
+  margin: 20px 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid gray;
+
+  &::-webkit-input-placeholder {
+    text-indent: 5px;
+    opacity: .5;
+    color: gray;
+    font-family: $main-font;
+  }
+  &:focus::-webkit-input-placeholder {
+    opacity: 0;
+  }
+}

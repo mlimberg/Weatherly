@@ -1,0 +1,33 @@
+.submitButton {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  height: 35px;
+  width: 35px;
+  background: $button-main-color;
+  color: #FFF;
+  align-self: center;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.46);
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background-color: white;
+    color: $button-main-color;
+    border: 1px solid gray;
+    cursor: pointer;
+  }
+  &:disabled {
+    background-color: gray;
+    color: #FFF;
+    cursor: default;
+    box-shadow: none;
+    &:disabled:hover {
+      background-color: gray;
+      color: #FFF;
+      border: none;
+    }
+  }
+}

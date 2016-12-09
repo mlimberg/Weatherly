@@ -1,8 +1,9 @@
-@import 'reset.scss';
-@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700');
-@import 'variables.scss';
-@import 'mixins.scss';
-@import 'buttons.scss';
-@import 'welcome.scss';
-@import 'search-section';
+@import 'reset';
+@import 'fonts';
+@import 'variables';
+@import 'mixins';
+@import 'header';
+@import 'buttons';
+@import 'welcome';
 @import 'weather-card';
+@import 'weather-list';

@@ -1,24 +1,51 @@
 .invalidCity {
-  display: flex;
-  justify-content: center;
+  font-family: $main-font;
+  display: block;
+  text-align: center;
   margin: 20px auto;
 }
 
+.errorImg {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
 .weatherList {
-  border: 1px solid black;
-  margin: 40px 20px;
-  margin-top: 60px;
+  margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  padding: 0px 20px;
 }
 
 .dataTable {
-  border: 1px solid red;
+  border-bottom: 1px dashed lightgray;
 }
 
 .locationHeader {
+  font-family: $main-font;
+  font-weight: bold;
   font-size: 24px;
-  margin: 25px;
+  margin: 20px auto;
+}
+
+.weather-date {
+  width: 100px;
+}
+
+.weather {
+  padding: 10px;
+  width: 150px;
+}
+
+.weather-temp {
+  width: 40px;
+}
+
+.weather-summary {
+  padding: 10px;
+  font-style: italic;
+  font-weight: lighter;
+  color: gray;
+  padding-bottom: 20px;
 }

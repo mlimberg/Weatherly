@@ -19,6 +19,7 @@ module.exports = {
       },
       { test: /\.css$/, loader: 'style!css' },
       { test: /\.scss$/, loader: 'style!css!sass' },
+      { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192' },
     ],
   },
   resolve: {

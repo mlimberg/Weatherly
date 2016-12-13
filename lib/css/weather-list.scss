@@ -16,46 +16,6 @@ body {
 
 .weatherList {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  margin: 0px 20px;
 }
-
-.dataTable {
-  border-bottom: 1px dashed lightgray;
-  border-width: 60%;
-  margin-bottom: 15px;
-}
-
-.locationHeader {
-  font-family: $main-font;
-  font-weight: bold;
-  font-size: 36px;
-  margin: 20px auto;
-}
-
-#weather-date {
-  display: inline-block;
-
-}
-
-.weatherData {
-  padding: 10px;
-  width: 150px;
-}
-
-.weather-summary {
-  padding: 10px;
-  font-style: italic;
-  font-weight: lighter;
-  color: gray;
-  padding-bottom: 20px;
-}
-
-.weatherHeader {
-  font-weight: 800;
-  font-size: 20px;
-}
-
-// .topRow {
-//   position: fixed;
-// }

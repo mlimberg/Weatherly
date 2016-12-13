@@ -1,0 +1,17 @@
+@media screen and (max-width: 450px) {
+  .weatherData {
+    width: 100%;
+    display: block;
+    align-content: center;
+  }
+
+  .weatherHeader {
+    display: none;
+  }
+
+  .weatherAlert {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

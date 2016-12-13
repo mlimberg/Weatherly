@@ -36,8 +36,9 @@
 }
 
 .weatherAlert {
+  border-radius: 5px;
+  background-color: #f4b4b2;
+  padding: 10px;
   text-align: left;
-  width: 650px;
-  color: red;
-  padding: 5px;
+  margin-bottom: 10px;
 }

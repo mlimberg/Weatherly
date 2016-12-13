@@ -31,3 +31,13 @@
     }
   }
 }
+
+.showHourlyBtn {
+  border: none;
+  outline: none;
+  &:hover {
+    background: $button-main-color;
+    color: white;
+    cursor: pointer;
+  }
+}

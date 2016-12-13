@@ -42,3 +42,19 @@
   text-align: left;
   margin-bottom: 10px;
 }
+
+.hourlyCard {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+}
+
+.hourlyTime {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.hourlyInfo {
+  display: inline-block;
+  padding-left: 8px;
+}

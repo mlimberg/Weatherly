@@ -1,0 +1,44 @@
+.dataTable {
+  border-bottom: 1px dashed lightgray;
+  margin-bottom: 15px;
+}
+
+.locationHeader {
+  font-family: $main-font;
+  font-weight: bold;
+  font-size: 36px;
+  margin: 20px auto;
+}
+
+.weatherData {
+  padding: 10px;
+  width: 110px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.weather-summary {
+  padding: 10px;
+  font-style: italic;
+  font-weight: lighter;
+  color: gray;
+  padding-bottom: 20px;
+}
+
+.weatherHeader {
+  margin-top: 40px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.weatherImg {
+  width: 40px;
+  height: 40px;
+}
+
+.weatherAlert {
+  text-align: left;
+  width: 650px;
+  color: red;
+  padding: 5px;
+}
